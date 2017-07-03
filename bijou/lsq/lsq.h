@@ -6,6 +6,7 @@
 class LSQ {
     public:
         LSQ(const Eigen::MatrixXf& A, const Eigen::VectorXf& b);
+        ~LSQ();
         Eigen::VectorXf solve();
     private:
         Eigen::MatrixXf A;

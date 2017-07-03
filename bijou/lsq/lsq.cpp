@@ -7,6 +7,10 @@ LSQ::LSQ(const Eigen::MatrixXf& A, const Eigen::VectorXf& b){
     this->b = b;
 }
 
+
+LSQ::~LSQ(){}
+
+
 Eigen::VectorXf LSQ::solve(){
     return this->A.jacobiSvd(Eigen::ComputeThinU | Eigen::ComputeThinV).solve(this->b);
 }

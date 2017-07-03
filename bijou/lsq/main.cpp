@@ -9,4 +9,5 @@ int main() {
     LSQ* lsq = new LSQ(A, b);
     Eigen::VectorXf x = lsq->solve();
     std::cout << x << std::endl;
+    delete lsq;
 }
