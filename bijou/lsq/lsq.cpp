@@ -1,5 +1,5 @@
 #include <Eigen/Dense>
-#include"lsq.h"
+#include "lsq.h"
 
 
 LSQ::LSQ(const Eigen::MatrixXf& A, const Eigen::VectorXf& b){
