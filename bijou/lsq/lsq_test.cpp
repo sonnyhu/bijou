@@ -1,4 +1,3 @@
-#include <iostream>
 #include <Eigen/Dense>
 #include "gtest/gtest.h"
 #include "lsq.h"
